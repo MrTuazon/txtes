@@ -1,0 +1,41 @@
+
+Update your branch when the original branch from official repository has been updated :
+$ git fetch [name_of_your_remote]
+
+$ git fetch --all
+$ git reset --hard origin/master
+
+Show branches, tags in git log
+$ git log --oneline --decorate
+
+Delete a branch on your local filesystem :
+$ git branch -d [name_of_your_new_branch]
+
+To force the deletion of local branch on your filesystem :
+$ git branch -D [name_of_your_new_branch]
+
+Delete the branch on github :
+$ git push origin :[name_of_your_new_branch]
+
+Removing multiple files from a Git repo that have already been deleted from disk:
+$ git add -u
+   For whole working tree:
+$ git add -u :/
+   To state the current path
+$ git add -u .
+
+
+git-add - Add file contents to the index
+git-commit - Record changes to the repository
+   -a switch, automatically add and rm
+git-push - Update remote refs along with associated objects
+
+starting a new git repository
+http://kbroman.org/github_tutorial/pages/init.html
+
+connecting forked repo to upstream to get most recent updates
+https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github/9257901#9257901
+
+Show detailed adress of remote repos
+$ git remote --verbose
+https://philna.sh/blog/2018/08/21/git-commands-to-keep-a-fork-up-to-date/
