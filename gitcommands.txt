@@ -33,3 +33,9 @@ git-push - Update remote refs along with associated objects
 starting a new git repository
 http://kbroman.org/github_tutorial/pages/init.html
 
+connecting forked repo to upstream to get most recent updates
+https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github/9257901#9257901
+
+Show detailed adress of remote repos
+$ git remote --verbose
+https://philna.sh/blog/2018/08/21/git-commands-to-keep-a-fork-up-to-date/
